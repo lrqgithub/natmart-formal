@@ -31,3 +31,4 @@ i18n
         },
     });
 export default i18n;
+export const t = i18n.t.bind(i18n);

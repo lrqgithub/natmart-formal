@@ -17,8 +17,8 @@ import { useTranslation } from 'react-i18next';
 import { IoMdArrowDropup, IoMdArrowDropdown } from 'react-icons/io';
 
 const TRANSLATIONS: Record<string, string> = {
-  'en-US': 'lang.en',
-  'zh-CN': 'lang.zh',
+  'en-US': 'en',
+  'zh-CN': 'zh',
 };
 
 const ChangeLanguage = () => {
